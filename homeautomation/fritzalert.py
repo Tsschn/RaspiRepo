@@ -45,8 +45,8 @@ if float(lastTemperature) < float(minTemp):
 
 # bei Ueberschreitung oder Unterschreitung eine Mail senden an marko.schildbach@icloud.com
 if doSendMail == True:
-	senderEmail = "raspberry.marko.schildbach@gmail.com"
-	empfangsEmail = "marko.schildbach@icloud.com"
+	senderEmail = "raspberry.schixxxxxxxxxxx@gmail.com"
+	empfangsEmail = "marko.schxxxxxxxx"
 	msg['From'] = senderEmail
 	msg['To'] = empfangsEmail
 
@@ -54,7 +54,7 @@ if doSendMail == True:
 
 	server = smtplib.SMTP("smtp.gmail.com",587) # die Server Daten
 	server.starttls()
-	server.login(senderEmail, "lame-astor-beware")
+	server.login(senderEmail, "lxxxxxe")
 	text = msg.as_string()
 	server.sendmail(senderEmail, empfangsEmail, text)
 	server.quit()

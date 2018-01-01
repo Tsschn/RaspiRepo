@@ -3,8 +3,8 @@
 # definitions
 # -----------
 FBF="http://192.168.43.1/"
-USER="dect"
-PASS="x"
+USER="user"
+PASS="ipass"
 AIN="087610372979"
 # ---------------
 # fetch challenge
